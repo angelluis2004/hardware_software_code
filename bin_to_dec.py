@@ -9,7 +9,7 @@ def binary_to_decimal(number):
 
 def main():
     num = input("Enter Binary Number:")
-    print("Number entered: {}, Decimal equivalent: {}".format(num, binary_to_decimal(num)))
+    print("Number entered: {}, Decimal: {}".format(num, binary_to_decimal(num)))
 
 if __name__ == "__main__":
     main()
